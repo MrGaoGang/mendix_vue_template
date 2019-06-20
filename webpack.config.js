@@ -27,13 +27,6 @@ var config = {
     module: {
         rules: [
             {
-                test: /\.css$/,
-                use: ExtractTextPlugin.extract({
-                  use: "css-loader",
-                  fallback: "style-loader"
-                })
-              },
-            {
                 test: /\.vue$/,
                 loader: 'vue-loader',
             },
