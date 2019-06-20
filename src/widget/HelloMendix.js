@@ -2,10 +2,11 @@ import declare from 'dojoBaseDeclare';
 import widgetBase from 'widgetBase';
 
 import _TemplatedMixin from 'dijitTemplatedMixin';
-import template from './template/HelloMendix.html'
+import template from './template/template.html'
 
 import Vue from 'vue';
 import App from './App.vue';
+import "babel-polyfill";
 
 declare("HelloMendix.widget.HelloMendix", [widgetBase, _TemplatedMixin], {
 
@@ -35,9 +36,9 @@ declare("HelloMendix.widget.HelloMendix", [widgetBase, _TemplatedMixin], {
 
         // Emit the event that will send the data from Mendix to your App.vue file / app starting point.
         this.vueRoot.$emit('widget-loaded', {
-            datas: {
-                btnName: vm.btnName
-            }
+
+            btnName: vm.btnName
+
         });
 
         if (this.contextObj != null) {

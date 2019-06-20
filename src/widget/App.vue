@@ -15,7 +15,7 @@ import {Button} from "iview";
         },
         data() {
             return {
-                btnName: "",
+                btnName: "default",
             }
         },
         mounted() {
