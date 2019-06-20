@@ -1,3 +1,4 @@
+'use strict';
 
 var webpack = require('webpack'),
     path = require('path'),
@@ -7,7 +8,6 @@ var webpack = require('webpack'),
     buildPath = 'build/' + widget + '/widget',
     buildFile = widget + '.js',
     VueLoaderPlugin = require('vue-loader/lib/plugin');
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 const WebpackShellPlugin = require('webpack-shell-plugin-next');
 
@@ -33,30 +33,10 @@ var config = {
                   fallback: "style-loader"
                 })
               },
-              {
+            {
                 test: /\.vue$/,
-                use: [
-                  {
-                    loader: "vue-loader",
-                    options: {
-                      loaders: {
-                        css: ExtractTextPlugin.extract({
-                          use: "css-loader",
-                          fallback: "vue-style-loader"
-                        }),
-                        scss:["style-loader","css-loader"]
-                      }
-                    }
-                  },
-                  {
-                    loader: "iview-loader",
-                    options: {
-                      prefix: false
-                    }
-                  }
-                  
-                ]
-              },
+                loader: 'vue-loader',
+            },
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
