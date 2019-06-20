@@ -27,13 +27,6 @@ var config = {
     module: {
         rules: [
             {
-                test: /\.css$/,
-                use: ExtractTextPlugin.extract({
-                  use: "css-loader",
-                  fallback: "style-loader"
-                })
-              },
-            {
                 test: /\.vue$/,
                 loader: 'vue-loader',
             },
@@ -52,16 +45,6 @@ var config = {
                 }
             },
             {
-                test: /iview\/.*?js$/,
-                loader: "babel-loader"
-            },
-            {
-                test: /iview.src.*?js$/, //为了兼容ie，否则在ie浏览器无法预览iview组件
-                use: [{
-                    loader: "babel-loader"
-                }]
-            },
-            {
                 test: /\.s[a|c]ss$/,
                 use: [
                     "style-loader", // creates style nodes from JS strings
@@ -70,7 +53,6 @@ var config = {
                 ]
             },
             {
-                //此处配置为iview的注意点，如果不配置的话 无法再Js文件中加载iview.css文件；其次如果使用url-loader无法加载的话，会使用file-loader进行文件加载
                 test: /\.(gif|jpg|png|woff|svg|eot|ttf)\??.*$/,
                 loader: "url-loader?limit=1024"
             },

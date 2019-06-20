@@ -1,11 +1,10 @@
 <template>
   <div>
-      <Button type="primary">{{ btnName }}</Button>
+      <button >{{ btnName }}</button>
   </div>
 </template>
 
 <script>
-import {Button} from "iview";
     export default {
         props:{
             widgetID:String
