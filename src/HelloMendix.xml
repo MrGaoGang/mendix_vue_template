@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="HelloMendix.widget.HelloMendix" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>HelloMendix</name>
+    <description>This shows Hello Mendix through VueJS</description>
+
+    <icon />
+
+    <properties>
+        <property key="btnName" type="string" required="false" defaultValue="Welcome to VueJS Mendix Widget">
+            <caption>Button Name</caption>
+            <category>Appearance</category>
+            <description>The button name</description>
+        </property>
+    </properties>
+</widget>
