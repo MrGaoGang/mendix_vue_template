@@ -25,6 +25,7 @@ declare("HelloMendix.widget.HelloMendix", [widgetBase, _TemplatedMixin], {
         var vm = this;
 
 
+        if(!this.vueRoot){//防止页面复用问题
         this.vueRoot = new Vue({
             el: this.mrgaoVueWidget,
             render: h => h(App, {
@@ -33,7 +34,7 @@ declare("HelloMendix.widget.HelloMendix", [widgetBase, _TemplatedMixin], {
                 }
             })
         });
-
+        }
         // Emit the event that will send the data from Mendix to your App.vue file / app starting point.
         this.vueRoot.$emit('widget-loaded', {
 
