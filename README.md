@@ -2,7 +2,7 @@
 Use Vue to create mendix widgets.
 [中文版](./ZH_README.md)
 
-If you don't know the basics of mendix component development, please move to [Personal Mendix Widgets Base](https://mrgaogang.github.io/article/mendix/widgets/%E8%AF%A6%E7%BB%86API.html)
+If you don't know the basics of mendix component development, please move to [Personal Mendix Widgets Base](https://mrgaogang.github.io/mendix/widgets/)
 
 > Because mendix only has client in windows,so use the template must in windows.
 
