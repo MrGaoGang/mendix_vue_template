@@ -48,7 +48,7 @@
 
 ### 2. 如何使用
 第一步: 下载这个模板或者 git clone https://github.com/MrGaoGang/mendix_vue_template
-第二步: 打开组件开发根目录
+第二步: **使用git bash 打开组件开发根目录**
 第三步:运行如下命令
 
 ```bash

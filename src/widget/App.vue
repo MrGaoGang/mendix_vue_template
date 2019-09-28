@@ -9,9 +9,6 @@
         props:{
             widgetID:String
         },
-        components:{
-            Button
-        },
         data() {
             return {
                 btnName: "default",

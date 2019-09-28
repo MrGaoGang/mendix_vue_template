@@ -88,7 +88,7 @@ var config = {
                 parallel: false
             },
             onBuildExit: {
-                scripts: ['node package.xml.js && cd build && zip -r widget.mpk * && cp widget.mpk ./../mendix/widgets/ && echo Widget copied to /mendix/widgets. Re-run your Mendix project to see changes.'],
+                scripts: ['node package.xml.js && cd build && zip -r '+widget+'.mpk * && cp '+widget+'.mpk ./../mendix/widgets/ && cp -rf '+widget+' ./../mendix/deployment/web/widgets/ && echo Widget copied to /mendix/widgets. Re-run your Mendix project to see changes.'],
                 blocking: true,
                 parallel: false
             }
