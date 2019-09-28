@@ -45,14 +45,16 @@ Find out whatever command you are missing Here I need zip and bzip2 for zip comm
 
 Unzip the downloaded files Here I am downloading “zip-3.0-bin.zip” for “zip.exe” and “bzip2-1.0.5-bin.zip” for “bzip2.dll” in the bin folder. /bin/.exe
 
-**Copy the command exe file into git-bash folder Here I am copying “zip.exe” and “bzip2.dll” to \Git\usr\bin.**
+**`Copy the command exe file into git-bash folder Here I am copying “zip.exe” and “bzip2.dll” to \Git\usr\bin.`**
 
 
 
 
 ### 2. How to use it
 First: download this template
-Second: **Open git bash in widgets root folder**;  
+
+Second: **`Open git bash in widgets root folder`**;  
+
 Third:
 
 ```bash
