@@ -6,6 +6,34 @@ If you don't know the basics of mendix component development, please move to [Pe
 
 > Because mendix only has client in windows,so use the template must in windows.
 
+**Project Structure**
+
+```
+├─.gitignore 
+├─README.md ------------------ // README
+├─ZH_README.md --------------- // 中文说明文档
+├─babel.config.js 
+├─build ---------------------- // Project Build Result
+│ ├─HelloWorld 
+│ │ ├─HelloWorld.xml 
+│ │ └─widget 
+│ │   ├─HelloWorld.js 
+│ │   └─template 
+│ │     └─HelloWorld.html 
+│ ├─package.xml 
+│ └─widget.mpk 
+├─mendix --------------------- // Widgets demo
+├─package.xml.js ------------- // Build tools
+├─src ------------------------ // Project source code
+│ ├─HelloMendix.xml ---------- // Mendix widgets config files
+│ └─widget 
+│   ├─App.vue ---------------- // Vue file
+│   ├─HelloMendix.js --------- // Contact Vue file and Mendix widget config
+│   └─template --------------- // HTML template
+│     └─template.html 
+└─webpack.config.js ---------- // webpack config
+```
+
 ### 1. Install zip and git
 
 First: I suggets you to use git bash to build the widgets.And the git download address is [click here](https://git-scm.com/downloads);

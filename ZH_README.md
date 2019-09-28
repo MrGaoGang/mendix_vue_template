@@ -5,6 +5,35 @@
 
 > 由于mendix只在Windows中有客户端，所以必须在windows中国使用此模板。
 
+
+**项目目录**
+
+```
+├─.gitignore 
+├─README.md ------------------ // README
+├─ZH_README.md --------------- // 中文说明文档
+├─babel.config.js 
+├─build ---------------------- // Project Build Result
+│ ├─HelloWorld 
+│ │ ├─HelloWorld.xml 
+│ │ └─widget 
+│ │   ├─HelloWorld.js 
+│ │   └─template 
+│ │     └─HelloWorld.html 
+│ ├─package.xml 
+│ └─widget.mpk 
+├─mendix --------------------- // Widgets demo
+├─package.xml.js ------------- // Build tools
+├─src ------------------------ // Project source code
+│ ├─HelloMendix.xml ---------- // Mendix widgets config files
+│ └─widget 
+│   ├─App.vue ---------------- // Vue file
+│   ├─HelloMendix.js --------- // Contact Vue file and Mendix widget config
+│   └─template --------------- // HTML template
+│     └─template.html 
+└─webpack.config.js ---------- // webpack config
+```
+
 使用步骤如下：
 ### 1. 安装git和zip
 
