@@ -1,4 +1,14 @@
 # mendix_vue_template
+
+## Usage
+
+``` bash
+npm install mendix-cli -g
+
+mendix create AppName
+```
+
+
 Use Vue to create mendix widgets.
 [中文版](./ZH_README.md)
 
