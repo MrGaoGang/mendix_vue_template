@@ -1,4 +1,14 @@
 # 使用Vue开发Mendix组件模板 
+
+## 使用
+
+``` bash
+npm install mendix-cli -g
+
+mendix create AppName
+```
+
+
 [English](./README.md)
 
 如果你对mendix组件开发基础知识还不了解的话，请先移步[个人博客-mendix组件开发专题](https://mrgaogang.github.io/mendix/widgets/)
