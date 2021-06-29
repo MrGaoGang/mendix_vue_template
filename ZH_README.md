@@ -11,7 +11,7 @@ mendix create AppName
 
 [English](./README.md)
 
-如果你对mendix组件开发基础知识还不了解的话，请先移步[个人博客-mendix组件开发专题](https://mrgaogang.github.io/mendix/widgets/)
+如果你对mendix组件开发基础知识还不了解的话，请先移步[个人博客-mendix组件开发专题](https://blog.gaogangsever.cn/mendix)
 
 > 由于mendix只在Windows中有客户端，所以必须在windows中国使用此模板。
 
