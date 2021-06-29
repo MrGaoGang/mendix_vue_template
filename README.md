@@ -12,7 +12,7 @@ mendix create AppName
 Use Vue to create mendix widgets.
 [中文版](./ZH_README.md)
 
-If you don't know the basics of mendix component development, please move to [Personal Mendix Widgets Base](https://mrgaogang.github.io/mendix/widgets/)
+If you don't know the basics of mendix component development, please move to [Personal Mendix Widgets Base](https://blog.gaogangsever.cn/mendix)
 
 > Because mendix only has client in windows,so use the template must in windows.
 
